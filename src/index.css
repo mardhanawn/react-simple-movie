@@ -1,0 +1,101 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.ant-card-body {
+  padding: 0;
+  background-color: #000000;
+}
+
+.ant-btn-dangerous.ant-btn-primary {
+  /* color: red; */
+  background-color: red !important;
+}
+
+.ant-card-meta {
+  background-color: #ffffff;
+  > .ant-card-meta-avatar {
+    padding: 1rem;
+    padding-right: 24px;
+    > .ant-avatar.ant-avatar-circle {
+      height: 60px;
+      width: 60px;
+    }
+  }
+
+  > .ant-card-meta-detail {
+    padding: 1rem 1rem 1rem 0;
+    > .ant-card-meta-title {
+      margin-bottom: 0;
+    }
+    > .ant-card-meta-description {
+      font-size: 12px;
+    }
+  }
+}
+
+a {
+  display: contents;
+  color: #ffffff;
+  padding: 0 1rem;
+}
+
+
+.text-danger {
+  color: red !important;
+}
+
+.border-right {
+  border-right: 1px solid;
+}
+
+.font-size-12 {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.ant-select.ant-select-single.ant-select-show-arrow {
+  > .ant-select-selector {
+    border: none;
+    color: #ffffff;
+    background-color: #2F363F;
+    >.ant-select-selection-search {
+      border: none;
+      color: #ffffff;
+      background-color: #2F363F;
+    }
+  }
+}
+
+.ant-select.ant-select-single.ant-select-show-arrow.ant-select-open {
+  color: #ffffff;
+  background-color: #2F363F;
+  > .ant-select-selector {
+    border: none;
+    color: #ffffff;
+    background-color: #2F363F;
+    >.ant-select-selection-search {
+      border: none;
+      color: #ffffff;
+      background-color: #2F363F;
+    }
+  }
+}
